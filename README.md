@@ -77,7 +77,7 @@ I enjoy:
 </p>
 
 <p align="center">
-  <img src="./footer.svg" width="200" />
+  <img src="./dividers/footer.svg" width="200" />
 </p>
 
 ---
