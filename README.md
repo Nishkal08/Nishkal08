@@ -5,8 +5,8 @@
 <h1 align="center">🌇 N I S H K A L</h1>
 
 <p align="center">
-  <strong>Full-Stack Developer • CSE Student @ Nirma University</strong><br>
-  <sub style="color:#FF8A65">Building clean, scalable and aesthetic digital experiences.</sub>
+  <strong>Full-Stack Developer • Improving in Data Science • CSE Student @ Nirma University</strong><br>
+  <sub style="color:#FF8A65">Building clean, scalable and digital experiences.</sub>
 </p>
 
 <!-- Sunset Divider -->
@@ -29,7 +29,7 @@ I enjoy:
   <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-1.svg" width="70%" />
 </p>
 
-## 🎨 Tech Stack (Sunset-Themed Icons)
+## 🎨 Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,ts,html,css,tailwind,git,github,cpp,java,python&perline=9" />
@@ -40,7 +40,7 @@ I enjoy:
   <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-1.svg" width="70%" />
 </p>
 
-## 📈 GitHub Stats (Sunset Mode)
+## 📈 GitHub Stats 
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Nishkal08&show_icons=true&theme=tokyonight&title_color=FF8A65&icon_color=FF6BD6&text_color=cbd5e1&hide_border=true" />
@@ -77,7 +77,7 @@ I enjoy:
 </p>
 
 <p align="center">
-  <img src="./animated-sunset-orb.svg" width="200" />
+  <img src="./footer.svg" width="200" />
 </p>
 
 ---
