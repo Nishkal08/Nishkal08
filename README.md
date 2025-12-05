@@ -53,7 +53,7 @@ I enjoy:
 </p>
 
 <p align="center">
-  <img src="./dividers/footer.svg" width="200" />
+  <img src="./dividers/footer.svg" width="100%" />
 </p>
 
 ---
@@ -62,6 +62,6 @@ I enjoy:
 <p align="center">
   <a href="mailto:nishkal0810@gmail.com"><img src="https://img.shields.io/badge/Email-FF8A65?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/Nishkal08"><img src="https://img.shields.io/badge/GitHub-6C63FF?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-FF6BD6?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/nishkal-doctor/"><img src="https://img.shields.io/badge/LinkedIn-FF6BD6?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
  
