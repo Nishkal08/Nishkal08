@@ -1,52 +1,44 @@
 <p align="center">
-  <img src="./banner.svg" width="100%" alt="Nishkal Banner"/>
+  <img src="./banner.svg" alt="Portfolio Banner" width="100%" />
 </p>
 
-# 👨‍💻 Hey there, I'm **Nishkal**
+# 👨‍💻 Hey, I'm **Nishkal**
 
 <p align="center">
-  <img 
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1200&color=00D1FF&center=true&vCenter=true&width=700&lines=MERN+Stack+Developer;CSE+Student+%40+Nirma+University;Deep+into+Algorithms+%26+System+Design;Turning+Ideas+Into+Code+⚡"
-  />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00B4D8&center=true&vCenter=true&width=700&lines=MERN+Stack+Developer;CSE+Student+%40+Nirma+University;Systems+%26+Algorithms;Building+Meaningful+Products" />
 </p>
 
 ---
 
-## 🚀 **About Me**
-- MERN Stack Developer  
-- Algorithm & System Design enthusiast  
-- Passionate about building scalable full-stack apps  
-- I love creating elegant, efficient, and user-friendly digital products  
+## 🚀 Quick Summary
+Full-stack MERN developer building performant web apps and clean API services. Focused on data structures, systems thinking, and product quality.
 
 ---
 
-## 🛠️ **Tech Stack**
+## 🛠️ Tech
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,ts,html,css,tailwind,java,cpp,python,git,github&perline=8" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,ts,html,css,tailwind,git&perline=8" />
 </p>
 
 ---
 
-## 📊 **GitHub Stats**
+## 📊 Live Stats
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Nishkal08&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Nishkal08&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Nishkal08&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" height="150"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nishkal08&theme=tokyonight" height="150"/>
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nishkal08&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nishkal08&layout=compact&theme=tokyonight" height="150"/>
 </p>
 
 ---
 
-## 🌀 **Activity Graph**
+## 🌀 Activity & Snake
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nishkal08&theme=react-dark&area=true" />
 </p>
 
----
-
-## 🐍 **Contribution Snake**
 <p align="center">
   <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/output/github-contribution-grid-snake.svg" />
 </p>
@@ -54,14 +46,14 @@
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="350" />
+  <img src="https://komarev.com/ghpvc/?username=Nishkal08&color=00B4D8&style=for-the-badge" />
 </p>
 
 ---
 
-## 🔗 **Connect With Me**
+## 🔗 Contact
 <p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=linkedin"></a>
-  <a href="#"><img src="https://skillicons.dev/icons?i=instagram"></a>
-  <a href="https://github.com/Nishkal08"><img src="https://skillicons.dev/icons?i=github"></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=linkedin" height="28" /></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=instagram" height="28" /></a>
+  <a href="https://github.com/Nishkal08"><img src="https://skillicons.dev/icons?i=github" height="28" /></a>
 </p>
