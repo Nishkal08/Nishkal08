@@ -1,37 +1,45 @@
-name: Generate Snake
+# .github/workflows/generate-snake.yml
+name: Generate Contribution Snake (light + dark)
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs every day at midnight
+    - cron: "0 0 * * *"   # daily at 00:00 UTC — change as needed
   workflow_dispatch:
   push:
     branches:
       - main
       - master
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Generate Snake SVG
+      - name: Generate contribution snake (light + dark)
         uses: Platane/snk@v3
         id: snake
         with:
-          github_user_name: YOUR_USERNAME
+          # Replace with your GitHub username if different
+          github_user_name: Nishkal08
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push Snake to Output Branch
+      - name: Ensure dist exists
+        run: |
+          ls -la dist || (echo "dist not found" && exit 1)
+
+      - name: Push generated files to 'output' branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
+          # target_branch will contain the generated SVGs
           target_branch: output
           build_dir: dist
         env:
