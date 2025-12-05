@@ -1,0 +1,36 @@
+name: Generate Contribution Snake
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install snake generator
+        run: |
+          npm i -g github-contribution-grid-snake
+
+      - name: Generate contribution snake
+        run: |
+          mkdir -p output
+          github-contribution-grid-snake -u ${{ github.repository_owner }} -o output/github-contribution-grid-snake.svg
+
+      - name: Commit snake
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/github-contribution-grid-snake.svg || true
+          git commit -m "chore: add contribution snake" || echo "no changes to commit"
+          git push
