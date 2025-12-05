@@ -1,9 +1,8 @@
-# .github/workflows/generate-snake.yml
-name: Generate Contribution Snake (light + dark)
+name: Generate Contribution Snake (npm)
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily at 00:00 UTC — change as needed
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
   workflow_dispatch:
   push:
     branches:
@@ -14,33 +13,58 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  generate-snake:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (fetch full history)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Generate contribution snake (light + dark)
-        uses: Platane/snk@v3
-        id: snake
+      - name: Set up Node.js 18
+        uses: actions/setup-node@v4
         with:
-          # Replace with your GitHub username if different
-          github_user_name: Nishkal08
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          node-version: 18
 
-      - name: Ensure dist exists
-        run: |
-          ls -la dist || (echo "dist not found" && exit 1)
+      - name: Install github-contribution-grid-snake (globally)
+        run: npm install -g github-contribution-grid-snake
 
-      - name: Push generated files to 'output' branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          # target_branch will contain the generated SVGs
-          target_branch: output
-          build_dir: dist
+      - name: Create output dir
+        run: mkdir -p output
+
+      - name: Generate contribution snake SVG (light)
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          echo "Generating light snake for user: $GH_USER"
+          github-contribution-grid-snake -u "$GH_USER" -o output/github-contribution-grid-snake.svg
+          echo "Generated files:"
+          ls -l output || true
+
+      - name: (optional) Generate dark snake variant
+        env:
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          github-contribution-grid-snake -u "$GH_USER" -o output/github-contribution-grid-snake-dark.svg --palette github-dark || true
+
+      - name: Show output (for logs)
+        run: ls -lah output || true
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit & push snake SVG (if changed)
+        env:
+          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        run: |
+          git remote set-url origin "$REPO_URL"
+          git add output/github-contribution-grid-snake.svg output/github-contribution-grid-snake-dark.svg || true
+          # Only commit if there are changes staged
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update contribution snake"
+            git push origin HEAD
+          else
+            echo "No changes to commit"
+          fi
