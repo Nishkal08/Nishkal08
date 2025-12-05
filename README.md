@@ -26,7 +26,7 @@ I enjoy:
 
 <!-- Sunset Divider -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-2.svg" width="70%" />
+  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-1.svg" width="70%" />
 </p>
 
 ## 🎨 Tech Stack (Sunset-Themed Icons)
@@ -37,7 +37,7 @@ I enjoy:
 
 <!-- Sunset Divider -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-3.svg" width="70%" />
+  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-1.svg" width="70%" />
 </p>
 
 ## 📈 GitHub Stats (Sunset Mode)
@@ -53,7 +53,7 @@ I enjoy:
 
 <!-- Sunset Divider -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-4.svg" width="70%" />
+  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-1.svg" width="70%" />
 </p>
 
 ## 🌀 Activity Graph  
@@ -63,7 +63,7 @@ I enjoy:
 
 <!-- Sunset Divider -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-5.svg" width="70%" />
+  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-1.svg" width="70%" />
 </p>
 
 ## 🐍 Contribution Snake
@@ -73,7 +73,7 @@ I enjoy:
 
 <!-- Sunset Divider -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-6.svg" width="70%" />
+  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-1.svg" width="70%" />
 </p>
 
 <p align="center">
