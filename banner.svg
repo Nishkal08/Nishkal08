@@ -1,34 +1,75 @@
-<!-- banner.svg -->
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="260" viewBox="0 0 1600 260">
   <defs>
+    
+    <!-- Background Gradient -->
     <linearGradient id="bg" x1="0" x2="1">
-      <stop offset="0" stop-color="#0f172a"/>
-      <stop offset="1" stop-color="#001529"/>
+      <stop offset="0" stop-color="#1a0f14"/>
+      <stop offset="1" stop-color="#2a0b1a"/>
     </linearGradient>
+
+    <!-- Glow Gradient -->
     <linearGradient id="glow" x1="0" x2="1">
-      <stop offset="0" stop-color="#00B4D8" stop-opacity="0.95"/>
-      <stop offset="1" stop-color="#6C63FF" stop-opacity="0.95"/>
+      <stop offset="0" stop-color="#FF8A65"/>
+      <stop offset="1" stop-color="#FF6BD6"/>
     </linearGradient>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="36" result="b"/>
-      <feComposite in="SourceGraphic" in2="b" operator="over"/>
-    </filter>
+
+    <!-- Blur Filter -->
+    <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+
+    <!-- Pulse Animation for Avatar -->
+    <radialGradient id="pulse">
+      <stop offset="0%" stop-color="#FF6BD6"/>
+      <stop offset="100%" stop-color="#FF8A65"/>
+      <animate attributeName="fx" dur="4s" values="0.2;0.8;0.2" repeatCount="indefinite"/>
+    </radialGradient>
+
   </defs>
 
+  <!-- Background -->
   <rect width="100%" height="100%" fill="url(#bg)"/>
 
+  <!-- Floating Glows -->
   <g filter="url(#blur)">
-    <ellipse cx="1200" cy="60" rx="260" ry="120" fill="#003A4D" opacity="0.32"/>
-    <ellipse cx="420" cy="180" rx="300" ry="140" fill="#303B7D" opacity="0.22"/>
+    <ellipse cx="1200" cy="60" rx="260" ry="120" fill="#ff8a65" opacity="0.12">
+      <animate attributeName="cy" dur="6s" values="60;80;60" repeatCount="indefinite"/>
+    </ellipse>
+
+    <ellipse cx="420" cy="180" rx="300" ry="140" fill="#ff6bd6" opacity="0.12">
+      <animate attributeName="cy" dur="7s" values="180;160;180" repeatCount="indefinite"/>
+    </ellipse>
   </g>
 
+  <!-- Glass Panel -->
   <g transform="translate(80,28)">
-    <rect x="0" y="0" rx="22" width="1440" height="200" fill="rgba(255,255,255,0.02)"/>
+    <rect x="0" y="0" rx="22" width="1440" height="200" fill="rgba(255,255,255,0.02)">
+      <animate attributeName="opacity" dur="6s" values="0.02;0.05;0.02" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Avatar Circle with Pulse -->
     <g transform="translate(48,64)">
-      <circle r="46" fill="#00B4D8"/>
+      <circle r="46" fill="url(#pulse)">
+        <animate attributeName="r" dur="3.5s" values="46;50;46" repeatCount="indefinite"/>
+      </circle>
       <text x="0" y="6" font-family="Inter, Arial" font-size="28" fill="#001" text-anchor="middle">N</text>
     </g>
-    <text x="140" y="92" font-family="Inter, Arial" font-size="36" fill="#ffffff" font-weight="700">Hey, I'm <tspan fill="url(#glow)">Nishkal</tspan></text>
-    <text x="140" y="132" font-family="Inter, Arial" font-size="16" fill="#cbd5e1" opacity="0.9">MERN Stack Developer • CSE Student @ Nirma University</text>
+
+    <!-- Name -->
+    <text x="140" y="92" font-family="Inter, Arial" font-size="36" fill="#fff" font-weight="700" opacity="0">
+      Hey, I'm <tspan fill="url(#glow)">Nishkal</tspan>
+      <animate attributeName="opacity" dur="1.4s" values="0;1" fill="freeze"/>
+    </text>
+
+    <!-- Subtitle (UPDATED) -->
+    <text x="140" y="132" font-family="Inter, Arial" font-size="16" fill="#ffdfe8" opacity="0.95">
+      Full-Stack Developer • CSE Student @ Nirma University
+      <animate attributeName="opacity" dur="1.8s" values="0;1" fill="freeze"/>
+    </text>
+
+    <!-- Email -->
+    <text x="140" y="158" font-family="Inter, Arial" font-size="14" fill="#FF8A65" opacity="0">
+      📧 nishkal0810@gmail.com
+      <animate attributeName="opacity" dur="2.2s" values="0;1" fill="freeze"/>
+    </text>
+
   </g>
 </svg>
