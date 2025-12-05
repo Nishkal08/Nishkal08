@@ -37,10 +37,6 @@ I enjoy:
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Nishkal08&theme=tokyonight&ring=FF8A65&fire=FF6BD6&currStreakLabel=ffffff&hide_border=true" />
 </p>
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nishkal08&layout=compact&theme=tokyonight&title_color=FF8A65&hide_border=true" />
-</p>
-
 
 ## 🌀 Activity Graph  
 <p align="center">
@@ -52,9 +48,6 @@ I enjoy:
  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/output/github-contribution-grid-snake.svg" width="700" />
 </p>
 
-<p align="center">
-  <img src="./dividers/footer.svg" width="100%" />
-</p>
 
 ---
 
@@ -63,5 +56,11 @@ I enjoy:
   <a href="mailto:nishkal0810@gmail.com"><img src="https://img.shields.io/badge/Email-FF8A65?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/Nishkal08"><img src="https://img.shields.io/badge/GitHub-6C63FF?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/nishkal-doctor/"><img src="https://img.shields.io/badge/LinkedIn-FF6BD6?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</p>
+
+---
+
+<p align="center">
+  <img src="./dividers/footer.svg" width="100%" />
 </p>
  
