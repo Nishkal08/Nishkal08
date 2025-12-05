@@ -10,17 +10,14 @@
 </p>
 
 
-## 🔥 About Me  
+## About Me  
 I’m a developer who loves building fast, modern, and user-focused web applications.  
 Focused on **clean architecture**, **DSA**, and **solid engineering practices**.
 
-I enjoy:  
-- Designing polished UI/UX  
-- Writing maintainable backend systems  
-- Solving problems through code  
-- Deploying complete full-stack projects
-
-
+- Built full-stack projects with clean architecture & real deployment.
+- Strong foundation in DSA, REST APIs, DB modeling & system design basics.
+- Designed polished UI/UX with reusable components & animations.
+- Experience working with authentication, caching & API optimizations.
 
 ## 🎨 Tech Stack
 
@@ -33,19 +30,25 @@ I enjoy:
 ## 📈 GitHub Stats 
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Nishkal08&show_icons=true&theme=tokyonight&title_color=FF8A65&icon_color=FF6BD6&text_color=cbd5e1&hide_border=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Nishkal08&theme=tokyonight&ring=FF8A65&fire=FF6BD6&currStreakLabel=ffffff&hide_border=true" />
+
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=Nishkal08&theme=tokyonight&ring=FF8A65&fire=FF6BD6&currStreakLabel=ffffff&hide_border=true" />
+  
+  <!-- Profile views (simple) -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Nishkal08&color=FF8A65&style=flat-square" alt="profile views" />
+</p>
+
 </p>
 
 
 ## 🌀 Activity Graph  
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nishkal08&theme=react-dark&area=true&hide_border=true&color=FF8A65&line=FF6BD6&point=ffffff" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nishkal08&theme=react-dark&area=true&hide_border=true&color=FF8A65&line=FF6BD6&point=ffffff" width="100%" />
 </p>
 
 ## 🐍 Contribution Snake
 <p align="center">
- <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/output/github-contribution-grid-snake.svg" width="700" />
+ <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/output/github-contribution-grid-snake.svg" width="100%" />
 </p>
 
 
@@ -58,7 +61,7 @@ I enjoy:
   <a href="https://www.linkedin.com/in/nishkal-doctor/"><img src="https://img.shields.io/badge/LinkedIn-FF6BD6?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
 
----
+  
 
 <p align="center">
   <img src="./dividers/footer.svg" width="100%" />
