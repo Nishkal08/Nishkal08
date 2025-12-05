@@ -1,59 +1,91 @@
 <p align="center">
-  <img src="./banner.svg" alt="Portfolio Banner" width="100%" />
+  <img src="./banner.svg" alt="banner" width="100%" />
 </p>
 
-# 👨‍💻 Hey, I'm **Nishkal**
+<h1 align="center">🌇 N I S H K A L</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00B4D8&center=true&vCenter=true&width=700&lines=MERN+Stack+Developer;CSE+Student+%40+Nirma+University;Systems+%26+Algorithms;Building+Meaningful+Products" />
+  <strong>Full-Stack Developer • CSE Student @ Nirma University</strong><br>
+  <sub style="color:#FF8A65">Building clean, scalable and aesthetic digital experiences.</sub>
+</p>
+
+<!-- Sunset Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-1.svg" width="70%" />
+</p>
+
+## 🔥 About Me  
+I’m a developer who loves building fast, modern, and user-focused web applications.  
+Focused on **clean architecture**, **DSA**, and **solid engineering practices**.
+
+I enjoy:  
+- Designing polished UI/UX  
+- Writing maintainable backend systems  
+- Solving problems through code  
+- Deploying complete full-stack projects
+
+<!-- Sunset Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-2.svg" width="70%" />
+</p>
+
+## 🎨 Tech Stack (Sunset-Themed Icons)
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,ts,html,css,tailwind,git,github,cpp,java,python&perline=9" />
+</p>
+
+<!-- Sunset Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-3.svg" width="70%" />
+</p>
+
+## 📈 GitHub Stats (Sunset Mode)
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Nishkal08&show_icons=true&theme=tokyonight&title_color=FF8A65&icon_color=FF6BD6&text_color=cbd5e1&hide_border=true" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Nishkal08&theme=tokyonight&ring=FF8A65&fire=FF6BD6&currStreakLabel=ffffff&hide_border=true" />
+</p>
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nishkal08&layout=compact&theme=tokyonight&title_color=FF8A65&hide_border=true" />
+</p>
+
+<!-- Sunset Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-4.svg" width="70%" />
+</p>
+
+## 🌀 Activity Graph  
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nishkal08&theme=react-dark&area=true&hide_border=true&color=FF8A65&line=FF6BD6&point=ffffff" />
+</p>
+
+<!-- Sunset Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-5.svg" width="70%" />
+</p>
+
+## 🐍 Contribution Snake
+<p align="center">
+ <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/output/github-contribution-grid-snake.svg" width="700" />
+</p>
+
+<!-- Sunset Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/main/dividers/sunset-divider-6.svg" width="70%" />
+</p>
+
+<p align="center">
+  <img src="./animated-sunset-orb.svg" width="200" />
 </p>
 
 ---
 
-## 🚀 Quick Summary
-Full-stack MERN developer building performant web apps and clean API services. Focused on data structures, systems thinking, and product quality.
-
----
-
-## 🛠️ Tech
+## 📫 Contact  
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,ts,html,css,tailwind,git&perline=8" />
+  <a href="mailto:nishkal0810@gmail.com"><img src="https://img.shields.io/badge/Email-FF8A65?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/Nishkal08"><img src="https://img.shields.io/badge/GitHub-6C63FF?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-FF6BD6?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
-
----
-
-## 📊 Live Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nishkal08&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nishkal08&theme=tokyonight" height="150"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nishkal08&layout=compact&theme=tokyonight" height="150"/>
-</p>
-
----
-
-## 🌀 Activity & Snake
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nishkal08&theme=react-dark&area=true" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Nishkal08/Nishkal08/output/github-contribution-grid-snake.svg" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Nishkal08&color=00B4D8&style=for-the-badge" />
-</p>
-
----
-
-## 🔗 Contact
-<p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=linkedin" height="28" /></a>
-  <a href="#"><img src="https://skillicons.dev/icons?i=instagram" height="28" /></a>
-  <a href="https://github.com/Nishkal08"><img src="https://skillicons.dev/icons?i=github" height="28" /></a>
-</p>
+ 
